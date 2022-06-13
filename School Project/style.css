@@ -1,0 +1,111 @@
+
+.sm, .lg, .xl {
+    display: none;
+  }
+  .xs {
+    display: block;
+  }
+
+  @media (min-width: 576px) {
+    body {
+        background-image: url('images/school.jpg');
+        background-repeat: no-repeat;
+              background-size: auto;
+           background-size: cover;
+    }
+    .xs, .lg, .xl {
+      display: none;
+    }
+    .sm {
+      display: block;
+    }
+  }
+
+  @media (min-width: 768px) {
+    body {
+        background-image: url('images/school.jpg');
+        background-repeat: no-repeat;
+              background-size: auto;
+           background-size: cover;
+    }
+    .xs, .sm, .xl { 
+      display: none;
+    }
+    .lg {
+      display: block;
+    }
+  }
+
+  @media (min-width: 992px) {
+    body {
+        background-image: url('images/school.jpg');
+        background-repeat: no-repeat;
+              background-size: auto;
+           background-size: cover;
+    }
+    .xs, .sm, .lg {
+      display: none;
+    }
+    .xl {
+      display: block;
+    }
+  }
+.head{
+text-align: center;
+display:inline;
+color:black;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 16px;
+
+}
+#images{
+float:left;
+display:flex;
+}
+section{
+display:flex;
+color:black;
+
+}
+aside{
+
+display:block;
+
+}
+
+  #navbar a {
+    background-color: blueviolet;
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  #navbar a:hover {
+    background-color: yellowgreen;
+    color: darkred;
+  }
+ .footer a{
+
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+margin-right:10px;
+background-color: blueviolet;
+  }
+ .footer a:hover {
+    background-color: pink;
+    color: darkred;
+  }
+  #navbar {
+    overflow: hidden; 
+    position: fixed;
+    width: 100%;
+  }
+  
+  
+  
